@@ -1,0 +1,12 @@
+---
+title: bowad.net article page
+layout: layouts/base-nav.njk
+tags: post
+---
+<div class="container max-w-3xl mx-auto">
+    <h1 class="font-display font-semibold text-4xl text-center pt-16">{{ name }}</h1>
+    <h5 class="font-display font-medium text-xl text-center pt-2 pb-16">{{ date|toISO }}</h5>
+    <article class="prose dark:prose-invert prose-headings:font-display mx-auto">
+        {{ content | safe }}
+    </article>
+</div>

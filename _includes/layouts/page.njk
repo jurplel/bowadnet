@@ -1,0 +1,10 @@
+---
+title: bowad.net article page
+layout: layouts/base-nav.njk
+---
+<div class="container max-w-3xl mx-auto">
+    <h1 class="font-display font-semibold text-4xl text-center py-16">{{ name }}</h1>
+    <article class="prose dark:prose-invert prose-headings:font-display mx-auto">
+        {{ content | safe }}
+    </article>
+</div>
