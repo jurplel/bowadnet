@@ -16,7 +16,7 @@
     "dev:11ty": "eleventy --serve",
     "dev:css": "tailwindcss -i assets/css/main.css -o _site/assets/css/main.css --watch",
     "build:11ty": "eleventy",
-    "build:css": "tailwindcss -i assets/css/main.css -o _site/assets/css/main.css"
+    "build:css": "tailwindcss -i assets/css/main.css -o _site/assets/css/main.css --minify"
   },
   "repository": {
     "type": "git",
