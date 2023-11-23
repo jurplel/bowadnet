@@ -104,8 +104,12 @@
 
 /* Dark mode transition */
 
-body * {
-    @apply transition-colors duration-200;
+body {
+    @apply transition-[background-color] duration-200;
+}
+
+p, h1, h2, h3, h4, h5, a, span, .prose {
+    @apply transition-[color] duration-200;
 }
 
 /* ported conveniences from legacy intvstyle */
