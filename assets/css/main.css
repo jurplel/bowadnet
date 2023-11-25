@@ -102,16 +102,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Dark mode transition */
-
-body {
-    @apply transition-[background-color] duration-200;
-}
-
-p, h1, h2, h3, h4, h5, a, span, .prose {
-    @apply transition-[color] duration-200;
-}
-
 /* ported conveniences from legacy intvstyle */
 
 .parallaxbg {
