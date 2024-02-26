@@ -8,10 +8,11 @@ eleventyNavigation:
 ---
 
 ## Cool stuff
-- [Welcome](https://interversehq.com/welcomething/)
+[Welcome](https://interversehq.com/welcomething/)  
+[CMU CS Academy + Vim](https://addons.mozilla.org/en-US/firefox/addon/cs-academy-vim/)
 
 ## Student Websites
-- [Abigale Kim](https://abigalekim.github.io/)
-- [Anna Lee](https://annalee.me/)
-- [Theo Kroening](https://kroening.dev)
-- [Wan Shen Lim](https://wanshenl.me/)
+[Abigale Kim](https://abigalekim.github.io/)  
+[Anna Lee](https://annalee.me/)  
+[Theo Kroening](https://kroening.dev)  
+[Wan Shen Lim](https://wanshenl.me/)
