@@ -7,9 +7,10 @@ eleventyNavigation:
   order: 3
 ---
 
-## Cool stuff
+## Cool Stuff™
 [Welcome](https://interversehq.com/welcomething/)  
-[CMU CS Academy + Vim](https://addons.mozilla.org/en-US/firefox/addon/cs-academy-vim/)
+[(obligatory) dotfiles](https://github.com/jurplel/dotfiles)  
+[CMU CS Academy + Vim](https://addons.mozilla.org/en-US/firefox/addon/cs-academy-vim/)  
 
 ## Student Websites
 [Abigale Kim](https://abigalekim.github.io/)  
