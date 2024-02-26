@@ -7,7 +7,10 @@ eleventyNavigation:
   order: 3
 ---
 
-## Other Student Websites:
+## Cool stuff
+- [Welcome](https://interversehq.com/welcomething/)
+
+## Student Websites
 - [Abigale Kim](https://abigalekim.github.io/)
 - [Anna Lee](https://annalee.me/)
 - [Theo Kroening](https://kroening.dev)
