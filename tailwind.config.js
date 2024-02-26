@@ -22,8 +22,8 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      'display': ['"Exo 2"', 'Poppins', ...defaultTheme.fontFamily.sans],
-      'sans': ['Poppins', ...defaultTheme.fontFamily.sans],
+      'display': ['"Exo 2"', 'Open Sans', ...defaultTheme.fontFamily.sans],
+      'sans': ['Open Sans', ...defaultTheme.fontFamily.sans],
     },
     extend: {
       backgroundImage: {
@@ -36,8 +36,8 @@ module.exports = {
         'intv-dark-accent': '#182b39',
         'intv-bright': '#1b65c6',
         'intv-bright-accent': '#0392BF',
-        'intv-bright-dark': '#3273dc',
-        'intv-bright-accent-dark': '#0392BF',
+        'intv-bright-dark': '#2380fa',
+        'intv-bright-accent-dark': '#05b1e6',
         'pure-red': 'rgb(255, 0, 0)',
         'pure-green': 'rgb(0, 255, 0)',
         'pure-blue': 'rgb(0, 0, 255)',
@@ -54,6 +54,13 @@ module.exports = {
       },
       transitionDuration: {
         'DEFAULT': '100ms',
+      },
+      typography: {
+        DEFAULT: {
+          css: {
+            maxWidth: '100ch', // add required value here
+          }
+        }
       }
     }
   },
