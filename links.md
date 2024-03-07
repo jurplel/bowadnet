@@ -12,7 +12,7 @@ eleventyNavigation:
 [(obligatory) dotfiles](https://github.com/jurplel/dotfiles)  
 [CMU CS Academy + Vim](https://addons.mozilla.org/en-US/firefox/addon/cs-academy-vim/)  
 
-## Student Websites
+## Other Student Websites
 [Abigale Kim](https://abigalekim.github.io/)  
 [Anna Lee](https://annalee.me/)  
 [Theo Kroening](https://kroening.dev)  
