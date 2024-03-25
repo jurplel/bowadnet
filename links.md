@@ -12,8 +12,9 @@ eleventyNavigation:
 [(obligatory) dotfiles](https://github.com/jurplel/dotfiles)  
 [CMU CS Academy + Vim](https://addons.mozilla.org/en-US/firefox/addon/cs-academy-vim/)  
 
-## Student Websites
+## Cool Websites
 [Abigale Kim](https://abigalekim.github.io/)  
 [Anna Lee](https://annalee.me/)  
+[Jessica Ruan](https://jessicaruan.com/)
 [Theo Kroening](https://kroening.dev)  
 [Wan Shen Lim](https://wanshenl.me/)
