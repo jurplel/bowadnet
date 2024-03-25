@@ -15,6 +15,7 @@ eleventyNavigation:
 ## Cool Websites
 [Abigale Kim](https://abigalekim.github.io/)  
 [Anna Lee](https://annalee.me/)  
-[Jessica Ruan](https://jessicaruan.com/)
+[Jessica Ruan](https://jessicaruan.com/)  
 [Theo Kroening](https://kroening.dev)  
 [Wan Shen Lim](https://wanshenl.me/)
+
