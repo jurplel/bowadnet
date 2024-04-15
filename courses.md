@@ -102,6 +102,6 @@ I would generally not recommend taking 15-251 and 15-210 at the same time, unles
 - 98-179: Student Taught Courses (StuCo): Introduction to Japanese Mahjong
 - 98-374: Student Taught Courses (StuCo): Steep by Steep: Investeagation into Tea Culture
 
-It's coming along. Notes coming summer.
+It's coming along. Notes on each coming in summer.
 
 If you would like to hear more about my experiences at CMU, [feel free to shoot me an email](mailto:bowad@bowad.net)!
