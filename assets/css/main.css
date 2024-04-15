@@ -161,6 +161,10 @@ a.link:hover, .prose a:hover {
     @apply text-intv-bright-accent dark:text-intv-bright-accent-dark no-underline
 }
 
+.prose {
+    @apply text-neutral-900 dark:text-neutral-100
+}
+
 .image {
     @apply shadow-xl rounded-lg aspect-[3/4] object-cover
 }

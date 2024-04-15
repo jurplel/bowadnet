@@ -18,7 +18,7 @@ My opinions are just that. Take what I say with a grain of salt, and keep in min
 ## Spring 2021
 - 15-112: Fundamentals of Programming and Computer Science
 
-This semester, I cross-registered in 15-112 at CMU while a student at community college. I later transferred.
+This semester, I cross-registered in 15-112 at CMU while a student at community college. I later transferred fully to CMU.
 
 Despite coming in with prior experience, this course gave me a rigorous set of fundamentals to draw upon compared with my self-taught background, and provided fun opportunities to work on projects for the course hackathon and the term project.
 
