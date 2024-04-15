@@ -162,7 +162,7 @@ a.link:hover, .prose a:hover {
 }
 
 .prose {
-    @apply text-neutral-900 dark:text-neutral-100
+    @apply text-black dark:text-white
 }
 
 .image {
