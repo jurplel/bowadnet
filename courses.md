@@ -1,7 +1,10 @@
 ---
 title: CMU Courses - bowad.net
 name: CMU Courses
-layout: layouts/page.njk
+date: 2024-08-31
+date_of_update: true
+img: /assets/img/cmu.jpg
+layout: layouts/article.njk
 eleventyNavigation:
   key: CMU Courses
   order: 2
@@ -10,7 +13,7 @@ A chronology of the courses I have taken thus far at Carnegie Mellon University.
 
 Inspired by [Abigale Kim](https://abigalekim.github.io/courses/)'s and [Wan Shen Lim](https://wanshenl.me/courses/)'s excellent course reviews.
 
-## Disclaimer:
+## Disclaimer
 My opinions are just that. Take what I say with a grain of salt, and keep in mind, this is from the perspective of someone with prior experience in systems programming. ***Your mileage may vary***.
 
 
@@ -104,7 +107,7 @@ I would generally not recommend taking 15-251 and 15-210 at the same time, unles
 
 **15-410** is entirely deserving of its reputation. Building nearly an entire kernel in a semester obviously requires an immense time investment, and results in several baffling debugging experiences. Through the comprehensiveness of the projects and the amazing quality of the lectures, I definitely feel I got a lot out of the course. Despite this, it is definitely not a course for everyone, and I would recommend most students do not take this course due to the enormous opportunity cost.
 
-**15-721** is an excellent continuation of the concepts introduced in 15-445, pushing the discussion started in the last class into areas of active research. Considering the fact that I am currently specializing in the field of database systems, this course is perhaps the most impactful one I have ever taken. The knowledge presented to me in this course has been invaluable. The query optimizer project I picked up as part of this course is also proving to be a fruitful endeavour.
+**15-721** is an excellent continuation of the concepts introduced in 15-445, pushing the discussion started in the last class into areas of active research. Considering the fact that I am currently specializing in the field of database systems, this course is perhaps the most impactful one I have ever taken. The knowledge presented to me in this course has been completely and utterly invaluable. The query optimizer project I picked up as part of this course is also proving to be a fruitful endeavour. If you are interested in database systems, or going beyond what was taught in 445, I cannot recommend this course enough.
 
 
 ## Fall 2024

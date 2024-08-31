@@ -51,6 +51,7 @@ module.exports = {
       },
       boxShadow: {
         'intv': '0em 0.375em 0.75em #000',
+        'intv-lesser': '0 0.125rem  0.3rem rgba(0,0,0,0.5),0 0.125rem 0.625rem 0 rgba(0,0,0,0.35)',
       },
       transitionDuration: {
         'DEFAULT': '100ms',

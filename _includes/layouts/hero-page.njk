@@ -1,0 +1,37 @@
+---
+layout: layouts/base.njk
+---
+</div>
+<main>
+<style>
+    .heroimg {
+        background-image: url("{{ heroimg }}");
+    }
+</style>
+<div class="heroimg h-[40rem] shadow-intv w-full bg-cover bg-no-repeat bg-fixed bg-center dark">
+    <div class="bg-opacity-75 bg-intv-dark">
+        {% include "../components/nav.njk" %}
+    </div>
+    <div class="text-center">
+    {% if herotitle or herosubtitle %}
+    <div class="bg-intv-dark bg-opacity-50 inline-block mt-36 mx-auto justify-self-center p-3 rounded-md" title="{{ herotooltip }}">
+        {% if herotitle %}
+        <h1 class="font-display font-bold text-6xl text-center text-shadow text-white">{{ herotitle }}</h1>
+        {% endif %}
+        {% if herosubtitle %}
+        <h2 class="font-display font-bold text-5xl text-center pt-4 text-shadow text-white">{{ herosubtitle }}</h1>
+        {% endif %}
+    </div>
+    {% endif %}
+    </div>
+</div>
+    <div class="container max-w-3xl mx-auto">
+        <h1 class="font-display font-bold text-4xl text-center pt-16 pb-8">{{ name }}</h1>
+        <article class="prose dark:prose-invert prose-headings:font-display mx-auto">
+            {{ content | safe }}
+        </article>
+    </div>
+{% include "../components/footer.njk" %}
+</main>
+
+<script src="/assets/js/navbar.js" type="module"></script>

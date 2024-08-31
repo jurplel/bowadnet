@@ -3,10 +3,58 @@ title: bowad.net article page
 layout: layouts/base-nav.njk
 tags: post
 ---
-<div class="container max-w-3xl mx-auto">
-    <h1 class="font-display font-semibold text-4xl text-center pt-16">{{ name }}</h1>
-    <h5 class="font-display font-medium text-xl text-center pt-2 pb-16">{{ date|toISO }}</h5>
-    <article class="prose dark:prose-invert prose-headings:font-display mx-auto">
-        {{ content | safe }}
-    </article>
+<!-- chatgpt generated nightmare -->
+{% set headings = [] %}
+{% set updatedContent = content %}
+
+{# Process the content line by line #}
+{% for line in content.split('\n') %}
+{% if line.indexOf('<h1>') >= 0 %}
+  {% set headingText = line | replace('<h1>', '') | replace('</h1>', '') | trim %}
+  {% set id = headingText | lower | replace(' ', '-') | replace(':', '') %}
+  {% set updatedContent = updatedContent | replace(line, '<h1 id="' ~ id ~ '">' ~ headingText ~ '</h1>') %}
+  {% set headings = headings.concat([{ level: 1, text: headingText, id: id }]) %}
+{% elif line.indexOf('<h2>') >= 0 %}
+  {% set headingText = line | replace('<h2>', '') | replace('</h2>', '') | trim %}
+  {% set id = headingText | lower | replace(' ', '-') | replace(':', '') %}
+  {% set updatedContent = updatedContent | replace(line, '<h2 id="' ~ id ~ '">' ~ headingText ~ '</h2>') %}
+  {% set headings = headings.concat([{ level: 2, text: headingText, id: id }]) %}
+{% endif %}
+{% endfor %}
+
+<div class="container max-w-7xl mx-auto">
+    <div class="grid grid-cols-6">
+        <div class="pt-16">
+            <nav id="toc" class="top-6 sticky">
+                <ul class="pl-4 pr-6">
+                    {# Generate the TOC list with links #}
+                    {% for heading in headings %}
+                    {% if heading.level == 2 %}
+                        <li class="ml-4 text-right my-1 dark:border-white border-black">
+                    {% else %}
+                        <li class="text-right my-1 dark:border-white border-black">
+                    {% endif %}
+                        <a href="#{{ heading.id }}" class="toc-link pr-2 dark:hover:text-white  hover:text-black text-gray-700 dark:text-gray-400">{{ heading.text }}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </nav>
+        </div>
+        <div class="col-span-4">
+            <h1 class="font-display font-semibold text-4xl pt-16">{{ name }}</h1>
+            <h5 class="font-display font-medium text-xl pt-2 pb-8">
+                {% if date_of_update %}
+                    Updated {{ date|toISO }}
+                {% else %}
+                    {{ date|toISO }}
+                {% endif %}
+            </h5>
+            <img src="{{ img }}" class="shadow-intv-lesser mb-8"/>
+            <article class="prose dark:prose-invert prose-headings:font-display mx-auto">
+                {{updatedContent | safe}}
+            </article>
+        </div>
+    </div>
 </div>
+
+<script src="/assets/js/article.js" type="module"></script>
