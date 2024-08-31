@@ -70,11 +70,10 @@ const menuButton = document.getElementById("menu-button")
 const menuOpened = document.getElementById('menu-open')
 const menuClosed = document.getElementById('menu-closed')
 
-let opened = true
+let opened = false
 
 function toggleMobileMenu() {
     opened = !opened
-    console.log(opened)
     if (opened) {
         menuOpened.classList.add('block')
         menuOpened.classList.remove('hidden')
@@ -82,8 +81,8 @@ function toggleMobileMenu() {
         menuClosed.classList.add('hidden')
         menuClosed.classList.remove('block')
 
-        menu.classList.add('opacity-100')
-        menu.classList.remove('opacity-0')
+        menu.classList.add('block')
+        menu.classList.remove('hidden')
     } else {
         menuClosed.classList.add('block')
         menuClosed.classList.remove('hidden')
@@ -91,8 +90,8 @@ function toggleMobileMenu() {
         menuOpened.classList.add('hidden')
         menuOpened.classList.remove('block')
 
-        menu.classList.add('opacity-0')
-        menu.classList.remove('opacity-100')
+        menu.classList.add('hidden')
+        menu.classList.remove('block')
     }
 }
 

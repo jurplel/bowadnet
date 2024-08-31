@@ -24,7 +24,7 @@ tags: post
 
 <div class="container max-w-7xl mx-auto">
     <div class="grid grid-cols-6">
-        <div class="pt-16">
+        <div class="max-lg:hidden pt-16">
             <nav id="toc" class="top-6 sticky">
                 <ul class="pl-4 pr-6">
                     {# Generate the TOC list with links #}
@@ -40,7 +40,7 @@ tags: post
                 </ul>
             </nav>
         </div>
-        <div class="col-span-4">
+        <div class="col-span-4 max-lg:col-span-6">
             <h1 class="font-display font-semibold text-4xl pt-16">{{ name }}</h1>
             <h5 class="font-display font-medium text-xl pt-2 pb-8">
                 {% if date_of_update %}
