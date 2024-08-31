@@ -102,6 +102,16 @@ I would generally not recommend taking 15-251 and 15-210 at the same time, unles
 - 98-179: Student Taught Courses (StuCo): Introduction to Japanese Mahjong
 - 98-374: Student Taught Courses (StuCo): Steep by Steep: Investeagation into Tea Culture
 
-It's coming along. Notes on each coming in summer.
+**15-410** is entirely deserving of its reputation. Building nearly an entire kernel in a semester obviously requires an immense time investment, and results in several baffling debugging experiences. Through the comprehensiveness of the projects and the amazing quality of the lectures, I definitely feel I got a lot out of the course. Despite this, it is definitely not a course for everyone, and I would recommend most students do not take this course due to the enormous opportunity cost.
+
+**15-721** is an excellent continuation of the concepts introduced in 15-445, pushing the discussion started in the last class into areas of active research. Considering the fact that I am currently specializing in the field of database systems, this course is perhaps the most impactful one I have ever taken. The knowledge presented to me in this course has been invaluable. The query optimizer project I picked up as part of this course is also proving to be a fruitful endeavour.
+
+
+## Fall 2024
+- 15-712: Advanced and Distributed Operating Systems
+- 36-218: Probability Theory for Computer Scientists
+- 33-120: Science and Science Fiction
+
+[Loading results...](https://i.redd.it/s63f8itwggg11.jpg)
 
 If you would like to hear more about my experiences at CMU, [feel free to shoot me an email](mailto:bowad@bowad.net)!
