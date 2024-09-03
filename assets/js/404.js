@@ -49,7 +49,7 @@ function wheel(e) {
     if(e.shiftKey){
         var delta = e.detail ? (-e.detail / 3) : (e.wheelDelta / 120);
         var doff = (delta / 25);
-        if (delta > 0 && Z + doff <= 0.5 || delta < 0 && Z + doff >= 0.01) {
+        if (delta > 0 && Z + doff <= 2.0 || delta < 0 && Z + doff >= 0.01) {
             Z += (delta / 25);
         }
     }
