@@ -1,9 +1,4 @@
 [[redirects]]
-from = "*"
-to = "/404/"
-status = 404
-
-[[redirects]]
 from = "/discord"
 to = "https://discordapp.com/invite/t8K7NtA"
 status = 301
@@ -12,3 +7,9 @@ status = 301
 from = "/zoom"
 to = "https://cmu.zoom.us/my/bowad"
 status = 301
+
+[[redirects]]
+from = "*"
+to = "/404/"
+status = 404
+
