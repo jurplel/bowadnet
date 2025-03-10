@@ -115,6 +115,6 @@ I would generally not recommend taking 15-251 and 15-210 at the same time, unles
 - 36-218: Probability Theory for Computer Scientists
 - 33-120: Science and Science Fiction
 
-[Loading results...](https://i.redd.it/s63f8itwggg11.jpg)
+**15-712** is an excellent tour of landmark systems papers, taught in an exciting and engaging way. I feel that it was definitely valuable to read through the papers selected, to build a foundation of more general knowledge in systems. I would definitely recommend it to anyone interested in systems research.
 
 If you would like to hear more about my experiences at CMU, [feel free to shoot me an email](mailto:bowad@bowad.net)!
