@@ -1,7 +1,7 @@
 ---
 title: CMU Courses - bowad.net
 name: CMU Courses
-date: 2024-08-31
+date: 2025-03-09
 date_of_update: true
 img: /assets/img/cmu.jpg
 layout: layouts/article.njk
