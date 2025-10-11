@@ -5,7 +5,7 @@ status = 301
 
 [[redirects]]
 from = "/zoom"
-to = "https://cmu.zoom.us/my/bowad"
+to = "https://us04web.zoom.us/j/7762156646?pwd=RVFFSEVXNU1RQUpVRkRieXBJc3I4Zz09"
 status = 301
 
 [[redirects]]
