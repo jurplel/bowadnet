@@ -15,9 +15,7 @@ eleventyNavigation:
 ## Cool Websites
 [Abigale Kim](https://abigalekim.github.io/)  
 [Alexis Schlomer](https://schlomer.xyz/)  
-[Anna Lee](https://annalee.me/)  
 [Chi Zhang](https://www.skyzh.dev/)  
-[Jessica Ruan](https://jessicaruan.com/)  
 [Miles Conn](https://milesconn.io/)  
 [Nicolas Ettlin](https://nicolas.ettlin.dev/en)  
 [Theo Kroening](https://kroening.dev)  
