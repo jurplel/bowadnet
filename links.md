@@ -18,7 +18,7 @@ eleventyNavigation:
 [Chi Zhang](https://www.skyzh.dev/)  
 [Miles Conn](https://milesconn.io/)  
 [Nicolas Ettlin](https://nicolas.ettlin.dev/en)  
-[Noble Mushtak](https://www.noblemushtak.com/)
+[Noble Mushtak](https://www.noblemushtak.com/)  
 [Theo Kroening](https://kroening.dev)  
 [Wan Shen Lim](https://wanshenl.me/)  
 
